@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1 {
+    color: #C65D7B;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto; /* 0 auto 0 auto = top, right, bottom, left*  & 0 auto = top and bottom have a 0 margin and right and left have a auto margin */
+    line-height: 2;
+    
+}
+
+h2 {
+    color: #C65D7B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #874356;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+    border: dotted #874356 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+
+}
+.intro {
+    width: 30%;
+    margin: 100px auto;
+}
+
+
+.top-container {
+    background-color: #F6E7D8  ; /* cadetblue #94B49F */
+    position: relative;
+    padding-top: 100px;
+}
+ 
+.middle-container {
+    font-size: large;
+    margin: 100px 0;
+}
+ 
+.bottom-container {
+    font-size: large;
+    background-color: #be8695;
+    padding: 50px 0 20px;
+
+}
+
+p {
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.soccer-img {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+.sewing-img {
+    width: 25%;
+    float: right;
+    margin-left: 5px;
+
+}
+
+.contact-me {
+    line-height: 50px;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #000;
+    font-size: 0.75rem;
+}
+ 
+
+.creator {
+    text-decoration: underline;
+}
+
+
+.top-star {
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+
+.bottom-star {
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+}
+
+.footer-link {
+    color: #F6E7D8;
+    line-height: 50px;
+  
+}
+
+a {
+    color: #F68989;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2e0ce;
+}
+
+.btn {
+    background: #F68989;
+    background-image: -webkit-linear-gradient(top, #F68989, #C65D7B);
+    background-image: -moz-linear-gradient(top, #F68989, #C65D7B);
+    background-image: -ms-linear-gradient(top, #F68989, #C65D7B);
+    background-image: -o-linear-gradient(top, #F68989, #C65D7B);
+    background-image: linear-gradient(to bottom, #F68989, #C65D7B);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    line-height: 30px;
+  }
+  
+  .btn:hover {
+    background: #c95374;
+    background-image: -webkit-linear-gradient(top, #c95374, #f2e0ce);
+    background-image: -moz-linear-gradient(top, #c95374, #f2e0ce);
+    background-image: -ms-linear-gradient(top, #c95374, #f2e0ce);
+    background-image: -o-linear-gradient(top, #c95374, #f2e0ce);
+    background-image: linear-gradient(to bottom, #c95374, #f2e0ce);
+    text-decoration: none;
+  }
+
+
+
+
+
+/* OLD NOTES
+.top-container {
+    background-color:#DAB88B ;
+    width: 200px;
+    height: 200px; 
+    display: inline-block;
+    left: 400px;
+
+
+}
+
+.middle-container {
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    right: 100px;
+
+
+}
+
+.bottom-container {
+    background-color: darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    right: 100px;
+
+} */
+
+
+ /* Position: Absolute example*/
